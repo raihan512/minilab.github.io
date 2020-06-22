@@ -1,0 +1,507 @@
+/*===============================================
+Common
+===============================================*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+img {
+    vertical-align: middle;
+}
+
+a:hover,
+a {
+    text-decoration: none;
+}
+
+ul,
+li {
+    list-style-type: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Poppins', sans-serif;
+    color: #000000;
+    text-transform: capitalize;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: #717171;
+    font-size: 25px;
+}
+
+a {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 22px;
+    color: #ffffff;
+    text-transform: capitalize;
+    -webkit-transition: all 0.4s ease-out 0s;
+    -moz-transition: all 0.4s ease-out 0s;
+    -ms-transition: all 0.4s ease-out 0s;
+    -o-transition: all 0.4s ease-out 0s;
+    transition: all 0.4s ease-out 0s;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+p,
+ul,
+li,
+.navbar,
+.navbar-brand,
+.navbar-nav,
+.nav-item,
+.nav-link {
+    padding: 0;
+    margin: 0;
+}
+
+.mini-btn {
+    display: inline-block;
+    padding: 20px 70px;
+    background: linear-gradient(to right, #ffb470, #ff6e6e);
+
+}
+
+.mini-btn:hover {
+    color: #000000;
+}
+
+.section-title h2 {
+    font-weight: 700;
+    font-size: 75px;
+    color: #000000;
+    text-align: center;
+    margin-bottom: 135px;
+}
+
+/*===============================================
+Hero
+===============================================*/
+.hero {
+    position: relative;
+    padding: 250px 0px 200px;
+    overflow: hidden;
+}
+
+.hero-shape .shape-1 {
+    position: absolute;
+    top: 360px;
+    left: 50px;
+}
+
+.hero-shape .shape-2 {
+    position: absolute;
+    top: 430px;
+    left: 120px;
+}
+
+.hero-shape .shape-3 {
+    position: absolute;
+    top: -150px;
+    right: -160px;
+}
+
+.hero-text {
+    padding-top: 240px;
+}
+
+.hero-text h1 {
+    font-weight: 600;
+    font-size: 70px;
+    margin-bottom: 60px;
+}
+
+.hero-text h1 span {
+    font-weight: 700;
+    color: #8b8b8b;
+}
+
+.hero-text h3 {
+    font-weight: 300;
+    font-size: 29px;
+    color: #717171;
+    margin-bottom: 60px;
+
+}
+
+.hero-img {
+    overflow: hidden;
+    border-radius: 35px;
+}
+
+/*===============================================
+Menu
+===============================================*/
+.menu-bar {
+    position: absolute;
+    top: 120px;
+    left: 0;
+    width: 100%;
+}
+
+.navbar-nav .nav-item .nav-link {
+    margin-right: 25px;
+    color: #ffffff;
+}
+
+.navbar-collapse form .btn i {
+    font-size: 22px;
+    color: #ffffff !important;
+}
+
+/*===============================================
+Service
+===============================================*/
+.service {
+    position: relative;
+    padding: 210px 0px 90px;
+    overflow: hidden;
+}
+
+.service-shape .shape-1 {
+    position: absolute;
+    top: 280px;
+    right: 65px;
+}
+
+.service-shape .shape-2 {
+    position: absolute;
+    top: 250px;
+    left: -130px;
+}
+
+.service .section-title h2 {
+    font-size: 60px;
+}
+
+.service-item {
+    margin: 0 0px 140px 30px;
+    padding: 35px 20px 70px 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    -webkit-transition: all 0.4s ease-out 0s;
+    -moz-transition: all 0.4s ease-out 0s;
+    -ms-transition: all 0.4s ease-out 0s;
+    -o-transition: all 0.4s ease-out 0s;
+    transition: all 0.4s ease-out 0s;
+}
+
+.service-item i {
+    font-size: 55px;
+    background: -webkit-linear-gradient(right, #ff6a6d, #ffb871);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 35px;
+
+}
+
+.service-item h4 {
+    font-weight: 700;
+    font-size: 19px;
+    margin-bottom: 40px;
+}
+
+.service-item:hover {
+    background: linear-gradient(to right, #ff6a6d, #ffb871);
+
+}
+
+.service-item:hover i {
+    -webkit-text-fill-color: #fff;
+}
+
+.service-item:hover h4,
+.service-item:hover p {
+    color: #ffffff;
+}
+
+.service-btn {
+    text-align: center;
+}
+
+/*===============================================
+Work
+===============================================*/
+.work {
+    position: relative;
+    padding: 220px 0px 90px;
+    overflow: hidden;
+}
+
+.work-shape .shape-1 {
+    position: absolute;
+    top: 75px;
+    left: 50px;
+}
+
+.work-shape .shape-2 {
+    position: absolute;
+    bottom: 200px;
+    right: 100px;
+    transform: rotate(-16deg);
+}
+
+.work-shape .shape-3 {
+    position: absolute;
+    bottom: 0px;
+    right: -165px;
+}
+
+.work-img {
+    position: relative;
+}
+
+.work-img img {
+    width: 640px;
+    height: 600px;
+    border-radius: 18px;
+}
+
+.work-img a {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 190px;
+    height: 190px;
+    border-radius: 50%;
+    background: linear-gradient(to right, #ff6a6d, #ffb871);
+}
+
+.work-img a i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 80px;
+    color: #fff;
+    -webkit-transition: all 0.4s ease-out 0s;
+    -moz-transition: all 0.4s ease-out 0s;
+    -ms-transition: all 0.4s ease-out 0s;
+    -o-transition: all 0.4s ease-out 0s;
+    transition: all 0.4s ease-out 0s;
+}
+
+.work-img a:hover i {
+    color: #000;
+}
+
+.work-text h2 {
+    font-weight: 700;
+    font-size: 65px;
+    margin-top: 75px;
+}
+
+.work-text p {
+    font-size: 23px;
+    margin: 70px 0px 50px;
+}
+
+/*===============================================
+Client
+===============================================*/
+.client {
+    position: relative;
+    padding: 220px 0px 100px;
+    overflow: hidden;
+}
+
+.client-shape .shape-1 {
+    position: absolute;
+    bottom: 0;
+    left: 20px;
+}
+
+.message-box p {
+    margin-top: 60px;
+    font-size: 23px;
+    margin-bottom: 65px;
+}
+
+.client-slider {
+    margin-left: calc((95% - 100%)/2);
+    margin-right: -50%;
+}
+
+.client-block {
+    margin: 10px 0px;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding: 50px 40px 55px 50px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+}
+
+.client-block h4 {
+    font-weight: 700;
+    font-size: 19px;
+    background: -webkit-linear-gradient(top, #ff6a6d, #ffb871);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 30px 0px 35px;
+}
+
+.client-img {
+    height: 65px;
+    width: 65px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.client-block p {
+    background: #fff;
+    font-size: 18px;
+}
+
+/*===============================================
+Contact
+===============================================*/
+.contact {
+    position: relative;
+    padding: 210px 0px 310px;
+    overflow: hidden;
+}
+
+.contact-shape .shape-1 {
+    position: absolute;
+    bottom: 200px;
+    left: 100px;
+}
+
+.contact-shape .shape-2 {
+    transform: rotate(270deg);
+    position: absolute;
+    top: 0;
+    left: -200px;
+}
+
+.contact-shape .shape-3 {
+    transform: rotate(270deg);
+    position: absolute;
+    bottom: 160px;
+    right: -185px;
+}
+
+.contact form .form-control {
+    height: 80px;
+    padding: 30px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #000000;
+    border: 0;
+    border-radius: 35px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+}
+
+form .form-control::placeholder {
+    background: -webkit-linear-gradient(#ff736e, #ffaf70);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.contact form [type="submit"] {
+    background: linear-gradient(to right, #ff6a6d, #ffb871);
+    color: #fff !important;
+    padding-top: 24px;
+}
+
+/*===============================================
+Footer
+===============================================*/
+.footer {
+    padding: 120px 0px 110px;
+    background: linear-gradient(to right, #ff656d, #ffbd71);
+}
+
+.footer-logo {
+    text-align: center;
+    margin-bottom: 120px;
+}
+
+.footer-heading h4 {
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 70px;
+}
+
+.footer .contact-email {
+    font-weight: 300;
+    color: #fff;
+}
+
+.footer-content li a {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    color: #fff;
+    font-size: 26px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.footer-content li:hover a {
+    color: #000;
+}
+
+.footer-social {
+    margin-top: 35px;
+}
+
+.footer-social li {
+    float: left;
+}
+
+.footer-social li a {
+    display: block;
+    margin-right: 25px;
+}
+
+.footer-social li a i {
+    font-size: 38px;
+    color: #fff;
+}
+
+.footer-social li a:hover i {
+    color: #000;
+}
+.footer .contact-email{
+    font-size: 20px;
+}
+/*===============================================================
+Scrolltop Button================================================*/
+#topbtn {
+    position: fixed;
+    bottom: 20px;
+    right: 10px;
+    height: 40px;
+    width: 40px;
+    background: #ff0000;
+    border: 0;
+    box-shadow: 0 0 3px #000;
+    display: none;
+    z-index: 999;
+}
+
+#topbtn i {
+    font-size: 25px;
+    color: #fff;
+}

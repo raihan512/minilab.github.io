@@ -1,0 +1,816 @@
+@media (min-width: 320px) and (max-width: 575px) {
+
+    /*Common*/
+    a {
+        font-size: 14px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    .mini-btn {
+        padding: 10px 24px;
+    }
+
+    .section-title h2 {
+        font-size: 20px;
+        margin-bottom: 35px;
+    }
+
+    /*Hero*/
+    .hero {
+        padding: 50px 0px 50px;
+    }
+
+    .hero-shape .shape-1 {
+        top: 75px;
+        left: 0px;
+        width: 30px;
+    }
+
+    .hero-shape .shape-2 {
+        top: 95px;
+        left: 20px;
+        width: 30px;
+    }
+
+    .hero-text {
+        padding-top: 70px;
+    }
+
+    .hero-text h1 {
+        font-size: 35px;
+        margin-bottom: 40px;
+    }
+
+    .hero-text h3 {
+        font-size: 18px;
+        margin-bottom: 30px;
+    }
+
+    .hero-img {
+        display: none;
+    }
+
+    /*Menu*/
+    .menu-bar {
+        top: 20px;
+    }
+.navbar-nav {
+	background: linear-gradient(to right, #ff646d, #ffbd71 );
+}
+    .navbar-nav .nav-item .nav-link {
+	margin-left: 25px;
+	padding: 20px;
+}
+    /*Service*/
+    .service-shape .shape-1 {
+        width: 30px;
+        top: 50px;
+        right: 5px;
+    }
+
+    .service-shape .shape-2 {
+        top: 100px;
+        left: -30px;
+        width: 50px;
+    }
+
+    .service {
+        padding: 50px 0px 30px;
+    }
+
+    .service .section-title h2 {
+        font-size: 20px;
+    }
+
+    .service-item {
+        margin-bottom: 15px;
+        padding: 15px;
+        border-radius: 5px;
+    }
+
+    .service-item i {
+        font-size: 20px;
+        margin-bottom: 25px;
+    }
+
+    .service-item h4 {
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+
+    /*Work*/
+    .work{
+        padding: 50px 0px 30px;
+    }
+    .work-shape .shape-1 {
+        top: 175px;
+        left: 10px;
+        width: 30px;
+    }
+
+    .work-shape .shape-2 {
+        bottom: 50px;
+        right: 50px;
+        width: 30px;
+    }
+
+    .work-shape .shape-3 {
+        bottom: 15px;
+        right: -20px;
+        width: 50px;
+    }
+
+    .work-img img {
+        width: 300px;
+        height: 300px;
+        border-radius: 18px;
+    }
+
+    .work-img a {
+        width: 100px;
+        height: 100px;
+    }
+
+    .work-img a i {
+        font-size: 40px;
+    }
+
+    .work-text h2 {
+        font-size: 20px;
+    }
+
+    .work-text p {
+        font-size: 22px;
+        margin: 25px 0px 30px;
+    }
+
+    /*Client*/
+    .client {
+        padding: 50px 0px 50px;
+    }
+
+    .client-shape .shape-1 {
+        bottom: 368px;
+        left: 5px;
+        width: 30px;
+    }
+
+    .client-block {
+        padding: 20px 15px 25px 30px;
+    }
+
+    .message-box p {
+        margin-top: 15px;
+        font-size: 18px;
+        margin-bottom: 35px;
+    }
+
+    .client-slider {
+        margin-top: 50px;
+    }
+
+    /*Contact*/
+    .contact {
+        padding: 50px 0px 50px;
+    }
+
+    .contact-shape .shape-1 {
+        top: 0px;
+        left: 10px;
+        width: 30px;
+    }
+
+    .contact-shape .shape-2 {
+        top: 35px;
+        left: -25px;
+        width: 50px;
+    }
+
+    .contact-shape .shape-3 {
+        bottom: 20px;
+        right: -35px;
+        width: 50px;
+    }
+
+    .contact form .form-control {
+        margin-bottom: 20px;
+    }
+
+    /*Footer*/
+    .footer {
+        padding: 50px 0px 50px;
+    }
+
+    .footer-logo {
+        margin-bottom: 50px;
+    }
+
+    .footer-heading h4 {
+        margin-bottom: 15px;
+        margin-top: 20px;
+        font-size: 16px;
+    }
+
+    .footer-content li a {
+        font-size: 16px;
+    }
+
+    .footer-social li a i {
+        font-size: 18px;
+    }
+
+    .footer-social {
+        margin-top: 10px;
+    }
+}
+@media (min-width: 576px) and (max-width: 767px) {
+        /*Common*/
+    a {
+        font-size: 18px;
+    }
+
+    p {
+        font-size: 22px;
+    }
+
+    .mini-btn {
+        padding: 15px 35px;
+    }
+
+    .section-title h2 {
+        font-size: 32px;
+        margin-bottom: 35px;
+    }
+     /*Hero*/
+    .hero {
+        padding: 50px 0px 50px;
+    }
+
+    .hero-shape .shape-1 {
+        top: 75px;
+        left: 0px;
+        width: 30px;
+    }
+
+    .hero-shape .shape-2 {
+        top: 95px;
+        left: 20px;
+        width: 30px;
+    }
+.hero-shape .shape-3 {
+	position: absolute;
+	top: -250px;
+	right: -250px;
+}
+    .hero-text {
+        padding-top: 70px;
+    }
+
+    .hero-text h1 {
+        font-size: 45px;
+        margin-bottom: 40px;
+    }
+
+    .hero-text h3 {
+        font-size: 18px;
+        margin-bottom: 30px;
+    }
+
+    .hero-img {
+        display: none;
+    }
+/*Menu*/
+    .menu-bar {
+        top: 20px;
+    }
+    .navbar-nav {
+	background: linear-gradient(to right, #ff646d, #ffbd71 );
+}
+    .navbar-nav .nav-item .nav-link {
+	margin-left: 25px;
+	padding: 20px;
+}
+        /*Service*/
+    .service {
+        padding: 50px 0px 30px;
+    }
+
+    .service-shape .shape-1 {
+	width: 50px;
+	top: 85px;
+	right: 0px;
+}
+
+    .service-shape .shape-2 {
+        top: 100px;
+        left: -30px;
+        width: 70px;
+    }
+
+    
+    .service .section-title h2 {
+        font-size: 32px;
+    }
+
+    .service-item {
+        margin-bottom: 15px;
+        padding: 45px;
+        border-radius: 5px;
+    }
+
+    .service-item i {
+        font-size: 30px;
+        margin-bottom: 25px;
+    }
+
+    .service-item h4 {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+
+    /*Work*/
+    .work{
+        padding: 50px 0px 30px;
+    }
+    .work-shape .shape-1 {
+        top: 0px;
+        left: 10px;
+        width: 50px;
+    }
+
+    .work-shape .shape-2 {
+        bottom: 50px;
+        right: 50px;
+        width: 50px;
+    }
+
+    .work-shape .shape-3 {
+        bottom: 15px;
+        right: -20px;
+        width: 70px;
+    }
+
+    .work-img img {
+        width: 500px;
+        height: auto;
+        border-radius: 18px;
+    }
+
+    .work-img a {
+        width: 100px;
+        height: 100px;
+    }
+
+    .work-img a i {
+        font-size: 40px;
+    }
+
+    .work-text h2 {
+        font-size: 30px;
+    }
+
+    .work-text p {
+        font-size: 18px;
+        margin: 25px 0px 30px;
+    }
+    /*Client*/
+    .client {
+        padding: 50px 0px 50px;
+    }
+
+    .client-shape .shape-1 {
+	bottom: 355px;
+	left: 5px;
+	width: 50px;
+}
+
+    .client-block {
+	padding: 30px 30px 40px 40px;
+}
+    .client-block p{
+        font-size: 22px;
+    }
+    .message-box p {
+        margin-top: 15px;
+        font-size: 22px;
+        margin-bottom: 35px;
+    }
+
+    .client-slider {
+        margin-top: 50px;
+    }
+/*Contact*/
+    .contact {
+        padding: 50px 0px 50px;
+    }
+
+    .contact-shape .shape-1 {
+        top: 0px;
+        left: 10px;
+        width: 50px;
+    }
+
+    .contact-shape .shape-2 {
+	top: 45px;
+	left: -40px;
+	width: 70px;
+}
+
+    .contact-shape .shape-3 {
+        bottom: 20px;
+        right: -35px;
+        width: 70px;
+    }
+
+    .contact form .form-control {
+        margin-bottom: 20px;
+    }
+    /*Footer*/
+    .footer{
+     padding: 50px 0px;   
+    }
+    .footer-logo {
+	margin-bottom: 50px;
+}
+    .footer-heading h4 {
+	margin-bottom: 20px;
+	margin-top: 50px;
+}
+
+
+}
+@media (min-width: 768px) and (max-width: 991px) {
+
+    .mini-btn {
+        padding: 15px 35px;
+    }
+
+    .section-title h2 {
+        font-size: 32px;
+        margin-bottom: 35px;
+    }
+     /*Hero*/
+    .hero {
+        padding: 150px 0px 50px;
+    }
+
+    .hero-shape .shape-1 {
+	top: 125px;
+	left: 0px;
+	width: 50px;
+}
+    .hero-shape .shape-2 {
+	top: 175px;
+	left: 20px;
+	width: 50px;
+}
+    .hero-shape .shape-3 {
+	position: absolute;
+	top: -320px;
+	right: -350px;
+}
+
+    .hero-text {
+        padding-top: 70px;
+    }
+
+    .hero-text h1 {
+        font-size: 44px;
+        margin-bottom: 40px;
+    }
+
+    .hero-text h3 {
+        font-size: 20px;
+        margin-bottom: 30px;
+    }
+/*Menu*/
+    .menu-bar {
+        top: 20px;
+    }
+    .navbar-nav {
+	background: linear-gradient(to right, #ff646d, #ffbd71 );
+}
+    .navbar-nav .nav-item .nav-link {
+	margin-left: 25px;
+	padding: 20px;
+}
+        /*Service*/
+    .service {
+        padding: 50px 0px 30px;
+    }
+
+    .service-shape .shape-1 {
+	width: 50px;
+	top: 85px;
+	right: 0px;
+}
+
+    .service-shape .shape-2 {
+        top: 100px;
+        left: -30px;
+        width: 70px;
+    }
+
+    
+    .service .section-title h2 {
+        font-size: 32px;
+    }
+
+    .service-item {
+        margin: 0;
+        padding: 10px;
+        border-radius: 5px;
+        
+    }
+
+    .service-item i {
+        font-size: 30px;
+        margin-bottom: 25px;
+    }
+
+    .service-item h4 {
+        font-size: 15px;
+        margin-bottom: 20px;
+    }
+    .service-btn{
+        margin-top: 20px;
+    }
+    /*Work*/
+    .work{
+        padding: 50px 0px 110px;
+    }
+    .work-shape .shape-1 {
+        top: 0px;
+        left: 10px;
+        width: 50px;
+    }
+
+    .work-shape .shape-2 {
+        bottom: 50px;
+        right: 50px;
+        width: 50px;
+    }
+
+    .work-shape .shape-3 {
+        bottom: 15px;
+        right: -20px;
+        width: 70px;
+    }
+
+    .work-img img {
+	width: 350px;
+	height: auto;
+}
+
+    .work-img a {
+        width: 100px;
+        height: 100px;
+    }
+
+    .work-img a i {
+        font-size: 40px;
+    }
+
+    .work-text h2 {
+	font-size: 22px;
+	margin-top: 0;
+}
+
+    .work-text p {
+        font-size: 18px;
+        margin: 10px 0px;
+    }
+    /*Client*/
+    .client {
+        padding: 50px 0px 50px;
+    }
+
+    .client-shape .shape-1 {
+	bottom: 405px;
+	left: 5px;
+	width: 50px;
+}
+
+    .client-block {
+	padding: 30px 30px 40px 40px;
+}
+    .client-block p{
+        font-size: 22px;
+    }
+    .message-box p {
+        margin-top: 70px;
+        font-size: 22px;
+        margin-bottom: 35px;
+    }
+
+    .client-slider {
+        margin-top: 50px;
+    }
+/*Contact*/
+    .contact {
+        padding: 50px 0px 50px;
+    }
+
+    .contact-shape .shape-1 {
+        top: 0px;
+        left: 10px;
+        width: 50px;
+    }
+
+    .contact-shape .shape-2 {
+	top: 45px;
+	left: -40px;
+	width: 70px;
+}
+
+    .contact-shape .shape-3 {
+        bottom: 20px;
+        right: -35px;
+        width: 70px;
+    }
+
+    .contact form .form-control {
+        margin-bottom: 20px;
+    }
+    /*Footer*/
+    .footer{
+     padding: 50px 0px;   
+    }
+    .footer-logo {
+	margin-bottom: 50px;
+}
+    .footer-heading h4 {
+	margin-bottom: 20px;
+	margin-top: 50px;
+}
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+
+    .mini-btn {
+        padding: 15px 35px;
+    }
+
+    .section-title h2 {
+        font-size: 48px;
+        margin-bottom: 95px;
+    }
+     /*Hero*/
+.hero-shape .shape-1 {
+	top: 400px;
+	left: 0px;
+	width: 50px;
+}
+.hero-shape .shape-2 {
+	top: 450px;
+	left: 31px;
+	width: 50px;
+}
+    .hero-shape .shape-3 {
+	position: absolute;
+	top: -275px;
+	right: -350px;
+}
+
+
+    .hero-text h1 {
+        font-size: 44px;
+        margin-bottom: 40px;
+    }
+
+    .hero-text h3 {
+        font-size: 20px;
+        margin-bottom: 30px;
+    }
+/*Menu*/
+    .menu-bar {
+        top: 70px;
+    }
+        /*Service*/
+    .service {
+        padding: 50px 0px 30px;
+    }
+
+    .service-shape .shape-1 {
+	width: 50px;
+	top: 85px;
+	right: 0px;
+}
+
+    .service-shape .shape-2 {
+        top: 100px;
+        left: -30px;
+        width: 70px;
+    }
+
+    
+    .service .section-title h2 {
+        font-size: 32px;
+    }
+
+    .service-item {
+        margin: 0;
+        padding: 30px;
+        border-radius: 5px;
+        
+    }
+
+    .service-item i {
+        font-size: 30px;
+        margin-bottom: 25px;
+    }
+
+
+    .service-btn{
+        margin-top: 20px;
+    }
+    /*Work*/
+    .work{
+        padding: 50px 0px 110px;
+    }
+    .work-shape .shape-1 {
+        top: 0px;
+        left: 10px;
+        width: 50px;
+    }
+
+    .work-shape .shape-2 {
+        bottom: 50px;
+        right: 50px;
+        width: 50px;
+    }
+
+    .work-shape .shape-3 {
+        bottom: 15px;
+        right: -20px;
+        width: 70px;
+    }
+
+    .work-img img {
+	width: 450px;
+	height: auto;
+}
+
+    .work-img a {
+        width: 100px;
+        height: 100px;
+    }
+
+    .work-img a i {
+        font-size: 40px;
+    }
+
+    .work-text h2 {
+	font-size: 22px;
+	margin-top: 30px;
+}
+
+    .work-text p {
+        font-size: 18px;
+        margin: 10px 0px;
+    }
+    /*Client*/
+.client-shape .shape-1 {
+	bottom: 550px;
+	left: 5px;
+	width: 50px;
+}
+
+    .client-block {
+	padding: 30px 30px 40px 40px;
+}
+    .client-block p{
+        font-size: 22px;
+    }
+    .message-box p {
+        margin-top: 100px;
+        font-size: 22px;
+        margin-bottom: 35px;
+    }
+
+    .client-slider {
+        margin-top: 50px;
+    }
+/*Contact*/
+    .contact-shape .shape-1 {
+        top: 0px;
+        left: 10px;
+        width: 50px;
+    }
+
+    .contact-shape .shape-2 {
+	top: 45px;
+	left: -40px;
+	width: 70px;
+}
+
+    .contact-shape .shape-3 {
+        bottom: 20px;
+        right: -35px;
+        width: 70px;
+    }
+
+    /*Footer*/
+}
